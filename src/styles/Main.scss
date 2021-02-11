@@ -1,0 +1,14 @@
+@import "/src/styles/variables";
+.selectField {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  &__btn {
+    color: $color-secondary !important;
+    transition: $transition !important;
+    &:hover {
+      color: $color-primary !important;
+      background-color: $color-secondary !important;
+    }
+  }
+}

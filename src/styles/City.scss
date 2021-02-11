@@ -1,0 +1,16 @@
+@import "/src/styles/variables";
+.currentCity {
+  width: 70%;
+  margin: 0 auto;
+  min-height: 500px;
+  &__name {
+    text-align: start;
+    &::after {
+      @include divider;
+    }
+  }
+  &__temp {
+    @include flex-center();
+    justify-content: space-between;
+  }
+}
